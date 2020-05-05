@@ -29,8 +29,10 @@ class Results extends Component {
     };
 
     return (
-      <div id="results">
-        <h1 className="results-title">RESULTS FOR {this.state.state}</h1>
+      <div>
+        <h1 id="results" className="results-title">
+          RESULTS FOR {this.state.state}
+        </h1>
 
         {this.state.data.map((result) => (
           <div className="testing-site" key={result.id}>
