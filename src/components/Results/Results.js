@@ -42,7 +42,7 @@ class Results extends Component {
               <h3 className="phone" onClick={callPhone}>
                 {result.phones[0] ? result.phones[0].number : ''}
               </h3>
-              <h3 className="address">
+              <h3>
                 {result.physical_address[0]
                   ? result.physical_address[0].address_1.replace(/,/g, '')
                   : ''}

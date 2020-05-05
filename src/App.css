@@ -107,10 +107,6 @@ nav {
   cursor: pointer;
 }
 
-.address {
-  cursor: pointer;
-}
-
 .map {
   text-decoration: none;
   color: red;
