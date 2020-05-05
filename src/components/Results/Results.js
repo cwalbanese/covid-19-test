@@ -42,12 +42,11 @@ class Results extends Component {
               <h3 className="phone" onClick={callPhone}>
                 {result.phones[0] ? result.phones[0].number : ''}
               </h3>
-              <h3>
+              <h3 className="address">
                 {result.physical_address[0]
                   ? result.physical_address[0].address_1.replace(/,/g, '')
                   : ''}
-              </h3>
-              <h3>
+                <br />
                 {result.physical_address[0]
                   ? result.physical_address[0].city + ', '
                   : ''}
@@ -57,6 +56,29 @@ class Results extends Component {
                 {result.physical_address[0]
                   ? result.physical_address[0].postal_code
                   : ''}
+                <br />
+                <br />
+                {result.physical_address[0] ? (
+                  <a
+                    className="map"
+                    href={
+                      'https://www.google.com/maps/place/' +
+                      result.physical_address[0].address_1.split('#')[0] +
+                      ',+' +
+                      result.physical_address[0].city +
+                      ',+' +
+                      result.physical_address[0].state_province +
+                      '+' +
+                      result.physical_address[0].postal_code
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View On Map
+                  </a>
+                ) : (
+                  ''
+                )}
               </h3>
             </div>
             <div className="description">

@@ -107,6 +107,16 @@ nav {
   cursor: pointer;
 }
 
+.address {
+  cursor: pointer;
+}
+
+.map {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
+
 .updated {
   font-style: italic;
 }
