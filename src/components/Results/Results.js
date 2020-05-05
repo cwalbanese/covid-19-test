@@ -57,7 +57,6 @@ class Results extends Component {
                   ? result.physical_address[0].postal_code
                   : ''}
                 <br />
-                <br />
                 {result.physical_address[0] ? (
                   <a
                     className="map"
