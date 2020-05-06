@@ -20,6 +20,9 @@ class Results extends Component {
       .then(() => {
         const state = this.state.state.toUpperCase().replace(/-/g, ' ');
         this.setState({ state: state });
+      })
+      .then(() => {
+        document.getElementById('results').scrollIntoView();
       });
   }
 

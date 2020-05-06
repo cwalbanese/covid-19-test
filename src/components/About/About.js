@@ -25,103 +25,103 @@ function About() {
       <div className="menu menu-offset">
         <ul onClick={toggleMenu}>
           <li>
-            <a href="/alabama/#results">Alabama</a>
+            <a href="/alabama">Alabama</a>
           </li>
           <li>
-            <a href="/alaska/#results">Alaska</a>
+            <a href="/alaska">Alaska</a>
           </li>{' '}
           <li>
-            <a href="/arizona/#results">Arizona</a>
+            <a href="/arizona">Arizona</a>
           </li>{' '}
           <li>
-            <a href="/arkansas/#results">Arkansas</a>
+            <a href="/arkansas">Arkansas</a>
           </li>{' '}
           <li>
-            <a href="/california/#results">California</a>
+            <a href="/california">California</a>
           </li>{' '}
           <li>
-            <a href="/colorado/#results">Colorado</a>
+            <a href="/colorado">Colorado</a>
           </li>{' '}
           <li>
-            <a href="/connecticut/#results">Connecticut</a>
+            <a href="/connecticut">Connecticut</a>
           </li>{' '}
           <li>
-            <a href="/delaware/#results">Delaware</a>
+            <a href="/delaware">Delaware</a>
           </li>{' '}
           <li>
-            <a href="/florida/#results">Florida</a>
+            <a href="/florida">Florida</a>
           </li>{' '}
           <li>
-            <a href="/georgia/#results">Georgia</a>
+            <a href="/georgia">Georgia</a>
           </li>{' '}
           <li>
-            <a href="/hawaii/#results">Hawaii</a>
+            <a href="/hawaii">Hawaii</a>
           </li>{' '}
           <li>
-            <a href="/idaho/#results">Idaho</a>
+            <a href="/idaho">Idaho</a>
           </li>{' '}
           <li>
-            <a href="/illinois/#results">Illinois</a>
+            <a href="/illinois">Illinois</a>
           </li>{' '}
           <li>
-            <a href="/indiana/#results">Indiana</a>
+            <a href="/indiana">Indiana</a>
           </li>{' '}
           <li>
-            <a href="/Kansas/#results">Kansas</a>
+            <a href="/Kansas">Kansas</a>
           </li>{' '}
           <li>
-            <a href="/kentucky/#results">Kentucky</a>
+            <a href="/kentucky">Kentucky</a>
           </li>{' '}
           <li>
-            <a href="/louisiana/#results">Louisiana</a>
+            <a href="/louisiana">Louisiana</a>
           </li>{' '}
           <li>
-            <a href="/maine/#results">Maine</a>
+            <a href="/maine">Maine</a>
           </li>{' '}
           <li>
-            <a href="/massachusetts/#results">Massachusetts</a>
+            <a href="/massachusetts">Massachusetts</a>
           </li>{' '}
           <li>
-            <a href="/michigan/#results">Michigan</a>
+            <a href="/michigan">Michigan</a>
           </li>{' '}
           <li>
-            <a href="/minnesota/#results">Minnesota</a>
+            <a href="/minnesota">Minnesota</a>
           </li>
           <li>
-            <a href="/mississippi/#results">Mississippi</a>
+            <a href="/mississippi">Mississippi</a>
           </li>{' '}
           <li>
-            <a href="/missouri/#results">Missouri</a>
+            <a href="/missouri">Missouri</a>
           </li>{' '}
           <li>
-            <a href="/montana/#results">Montana</a>
+            <a href="/montana">Montana</a>
           </li>{' '}
           <li>
-            <a href="/new-jersey/#results">New Jersey</a>
+            <a href="/new-jersey">New Jersey</a>
           </li>{' '}
           <li>
-            <a href="/new-mexico/#results">New Mexico</a>
+            <a href="/new-mexico">New Mexico</a>
           </li>{' '}
           <li>
-            <a href="/new-york/#results">New York</a>
+            <a href="/new-york">New York</a>
           </li>{' '}
           <li>
-            <a href="/north-carolina/#results">North Carolina</a>
+            <a href="/north-carolina">North Carolina</a>
           </li>{' '}
           <li>
-            <a href="/oklahoma/#results">Oklahoma</a>
+            <a href="/oklahoma">Oklahoma</a>
           </li>{' '}
           <li>
-            <a href="/pennsylvania/#results">Pennsylvania</a>
+            <a href="/pennsylvania">Pennsylvania</a>
           </li>{' '}
           <li>
-            <a href="/texas/#results">Texas</a>
+            <a href="/texas">Texas</a>
           </li>
           <li>
-            <a href="/utah/#results">Utah</a>
+            <a href="/utah">Utah</a>
           </li>
           <li>
-            <a href="/washington/#results">Washington</a>
+            <a href="/washington">Washington</a>
           </li>
         </ul>
       </div>
