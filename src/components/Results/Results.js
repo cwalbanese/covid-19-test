@@ -27,10 +27,6 @@ class Results extends Component {
   }
 
   render() {
-    const callPhone = (evt) => {
-      window.open(`tel:${evt.target.innerHTML}`);
-    };
-
     return (
       <div>
         <h1 id="results" className="results-title">
@@ -42,8 +38,14 @@ class Results extends Component {
             <div className="info">
               <h2>{result.name}</h2>
 
-              <h3 className="phone" onClick={callPhone}>
-                {result.phones[0] ? result.phones[0].number : ''}
+              <h3 className="phone">
+                {result.phones[0] ? (
+                  <a href={'tel:' + result.phones[0].number}>
+                    {result.phones[0].number}
+                  </a>
+                ) : (
+                  ''
+                )}
               </h3>
               <h3>
                 {result.physical_address[0]
